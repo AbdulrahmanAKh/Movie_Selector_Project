@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddMovieDialog</class>
+ <widget class="QDialog" name="AddMovieDialog">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>400</width><height>300</height></rect>
+  </property>
+  <property name="windowTitle"><string>Add / Edit Movie</string></property>
+  <property name="styleSheet"><string>
+QDialog { background-color: #1a1a1a; }
+QLineEdit, QSpinBox, QDoubleSpinBox {
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 13px;
+}
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+QPushButton#cancelBtn {
+    background-color: #555;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton#cancelBtn:hover {
+    background-color: #666;
+}
+</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+
+   <item><widget class="QLineEdit" name="titleEdit">
+     <property name="placeholderText"><string>Title</string></property>
+   </widget></item>
+
+   <item><widget class="QLineEdit" name="genreEdit">
+     <property name="placeholderText"><string>Genre</string></property>
+   </widget></item>
+
+   <item><widget class="QSpinBox" name="yearSpin">
+     <property name="minimum"><number>1900</number></property>
+     <property name="maximum"><number>2100</number></property>
+     <property name="value"><number>2020</number></property>
+   </widget></item>
+
+   <item><widget class="QDoubleSpinBox" name="ratingSpin">
+     <property name="decimals"><number>1</number></property>
+     <property name="minimum"><double>0.0</double></property>
+     <property name="maximum"><double>10.0</double></property>
+     <property name="singleStep"><double>0.1</double></property>
+     <property name="value"><double>5.0</double></property>
+   </widget></item>
+
+   <item>
+    <layout class="QHBoxLayout">
+     <item><widget class="QLineEdit" name="posterPath">
+       <property name="placeholderText"><string>Poster path...</string></property>
+     </widget></item>
+     <item><widget class="QPushButton" name="browseBtn">
+       <property name="text"><string>Browse</string></property>
+     </widget></item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout">
+     <item><widget class="QPushButton" name="saveBtn">
+       <property name="text"><string>Save</string></property>
+     </widget></item>
+     <item><widget class="QPushButton" name="cancelBtn">
+       <property name="text"><string>Cancel</string></property>
+     </widget></item>
+    </layout>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
