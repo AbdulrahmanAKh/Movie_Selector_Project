@@ -168,20 +168,6 @@ CREATE TABLE movies (
 
 ---
 
-## 📸 Screenshots
-
-> *Tip: Add your application screenshots or demo GIF below to make your GitHub repository stand out.*
-
-| Who's Watching? (Profile Selection) | Movie Catalog & Carousel |
-|:---:|:---:|
-| *(Add Profile Selection Screenshot here)* | *(Add Movie Catalog Screenshot here)* |
-
-| Continue Watching (Passwordless Confirmation) | Interactive Movie Card Hover |
-|:---:|:---:|
-| *(Add Login Dialog Screenshot here)* | *(Add Movie Hover Screenshot here)* |
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -190,7 +176,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Abdulqader Alshihabi**  
+**Abdulrahman Alkhatib**  
 - GitHub: [@AbdulrahmanAKh](https://github.com/AbdulrahmanAKh)  
 - LinkedIn: [https://www.linkedin.com/in/abdulrahman-alkhatib/](https://www.linkedin.com/in/abdulrahman-alkhatib/)
 - Email: [aboodkhatib90@gmail.com](mailto:aboodkhatib90@gmail.com)  
