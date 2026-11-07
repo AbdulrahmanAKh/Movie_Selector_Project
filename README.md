@@ -1,4 +1,4 @@
-# 🎬 CineVault - Netflix-Inspired Movie Organizer & Profile Manager
+# CineVault - Netflix-Inspired Movie Organizer & Profile Manager
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![GUI Framework](https://img.shields.io/badge/GUI-PyQt5-green.svg?logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
@@ -12,31 +12,25 @@ Built with **Python**, **PyQt5**, and **SQLite3**, CineVault delivers a modern s
 
 ## Interactive Web Presentation
 
-An interactive browser-based presentation is included in the `presentation/` directory:
+An interactive browser-based presentation is included in the `/presentation` directory:
 - **Live Presentation Demo**: [https://abdulrahmanakh.github.io/Movie_Selector_Project/](https://abdulrahmanakh.github.io/Movie_Selector_Project/)
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 👤 Multi-Profile Experience (Netflix-Inspired)
+### Multi-Profile Experience (Netflix-Inspired)
 - **"Who's Watching?" Selection Screen**: Sleek profile selection screen with smooth hover effects and dark cinema styling.
 - **Interactive Avatar Scaling**: Avatars smoothly expand (`QPropertyAnimation` with cubic easing) and illuminate with a bright white border and ambient drop shadow on hover.
 - **Profile Management**: Full CRUD capabilities for profiles—create, edit display name, upload custom profile pictures, or delete profiles (with cascading movie cleanup).
 
-### 🔐 Flexible & Secure Authentication
-- **Optional Password Protection**: Choose whether to secure individual profiles with a password or keep them open for frictionless access.
-- **SHA-256 Cryptographic Hashing**: Secure password hashing ensures credentials are never stored in plaintext.
-- **Passwordless 1-Click Login ("Continue Watching")**: Profiles without passwords open a dedicated confirmation dialog with **"Continue watching"** to log in instantly.
-- **Dynamic Password Controls**: Add a password to a previously unprotected account, change existing passwords, or remove passwords with one click in the profile editor.
-
-### 🎥 Interactive Movie Catalog
+### Interactive Movie Catalog
 - **Carousel & Grid Display**: Browse movies with custom poster artwork, title, genre chips, and star ratings.
 - **Interactive Card Hover & Lift**: Hovering over a movie card elevates it with a Netflix-red accent border, deep drop shadow, and a smooth `▶` play overlay.
 - **Selection State**: Clicking a movie highlights it with a golden glow and displays detailed metadata in the inspection panel.
 - **Full Movie CRUD**: Add, edit, or delete movies with real-time collection updates.
 
-### 🔍 Real-Time Search, Filtering & Sorting
+### Real-Time Search, Filtering & Sorting
 - **Instant Search**: Search movies by title with real-time feedback.
 - **Dynamic Multi-Genre Filter**: Automatically extracts unique genres from your collection into a dropdown filter.
 - **Multi-Parameter Sorting**:
@@ -46,7 +40,7 @@ An interactive browser-based presentation is included in the `presentation/` dir
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -63,7 +57,7 @@ An interactive browser-based presentation is included in the `presentation/` dir
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Movie Selector Project Qt/
@@ -87,7 +81,7 @@ Movie Selector Project Qt/
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 The SQLite relational database maintains referential integrity between users and their personal movie libraries:
 
@@ -115,7 +109,7 @@ CREATE TABLE movies (
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher installed on your system.
@@ -149,24 +143,6 @@ CREATE TABLE movies (
    ```bash
    python movie_organizer.py
    ```
-
----
-
-## 💡 Engineering Highlights & Design Decisions
-
-1. **Anti-Jitter Geometry Animation**:
-   Profile avatars scale smoothly using a fixed-dimension bounding container (`picContainer`) enclosing an inner animated frame (`avatarBox`). This guarantees that expanding an avatar on hover never shifts neighboring grid items.
-
-2. **Non-Blocking Modal Windows**:
-   Dialog workflows (Profile Selection, Authentication, Movie Management) properly manage Qt event loop lifecycles, ensuring smooth transitions without orphaned windows or memory leaks.
-
-3. **Graceful Database Constraint Handling**:
-   Implemented support for optional passwords while preserving backward compatibility with existing SQLite schema constraints using empty string hashes and robust `NOT NULL` fallback checks.
-
-4. **Layered Dynamic CSS State Management**:
-   Applied Qt dynamic properties (`[selected="true"]`, `[hovered="true"]`) combined with `unpolish()` / `polish()` calls to dynamically update widget stylesheets without resetting entire window hierarchies.
-
----
 
 ## 📄 License
 
