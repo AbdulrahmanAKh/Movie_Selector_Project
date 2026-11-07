@@ -4,7 +4,7 @@
 [![GUI Framework](https://img.shields.io/badge/GUI-PyQt5-green.svg?logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
 [![Database](https://img.shields.io/badge/Database-SQLite3-lightgrey.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-orange.svg)](#)
-[![Interactive Presentation](https://img.shields.io/badge/Presentation-Live%20Demo-red.svg)]([https://abdulqader-alshihabi.github.io/Movie-Organizer-Desktop-App/](https://abdulrahmanakh.github.io/Movie_Selector_Project/)
+[![Interactive Presentation](https://img.shields.io/badge/Presentation-Live%20Demo-red.svg)](https://abdulrahmanakh.github.io/Movie_Selector_Project/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An interactive, desktop movie catalog and collection organizer featuring a **Netflix-inspired dark aesthetic**, **multi-profile management**, **flexible authentication**, and **rich interactive card animations**.
