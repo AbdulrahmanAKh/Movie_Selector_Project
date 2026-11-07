@@ -12,7 +12,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Abdulqader Alshihabi**  
+**Abdulrahman Alkhatib**  
 - GitHub: [@AbdulrahmanAKh](https://github.com/AbdulrahmanAKh)  
 - LinkedIn: [https://www.linkedin.com/in/abdulrahman-alkhatib/](https://www.linkedin.com/in/abdulrahman-alkhatib/)
 - Email: [aboodkhatib90@gmail.com](mailto:aboodkhatib90@gmail.com)  
