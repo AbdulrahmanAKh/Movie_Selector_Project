@@ -10,6 +10,11 @@ An interactive, desktop movie catalog and collection organizer featuring a **Net
 
 Built with **Python**, **PyQt5**, and **SQLite3**, CineVault delivers a modern streaming-like experience right to your desktop.
 
+## Interactive Web Presentation
+
+An interactive browser-based presentation is included in the `presentation/` directory:
+- **Live Presentation Demo**: [https://abdulrahmanakh.github.io/Movie_Selector_Project/](https://abdulrahmanakh.github.io/Movie_Selector_Project/)
+
 ---
 
 ## ✨ Key Features
@@ -183,10 +188,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Abdulrahman Alkhatib**  
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Abdulrahman Alkhatib](https://linkedin.com)
-- Email: your-email@example.com
+**Abdulqader Alshihabi**  
+- GitHub: [@AbdulrahmanAKh](https://github.com/AbdulrahmanAKh)  
+- LinkedIn: [https://www.linkedin.com/in/abdulrahman-alkhatib/](https://www.linkedin.com/in/abdulrahman-alkhatib/)
+- Email: [aboodkhatib90@gmail.com](mailto:aboodkhatib90@gmail.com)  
+- Portfolio: [https://abdulrahmanakh.github.io/Alkhatib-Portfolio/](https://abdulrahmanakh.github.io/Alkhatib-Portfolio/)
 
+---
+
+<p align="center">
+  <b>Developed & Engineered by Abdulrahman Alkhatib</b><br>
+  <i>Computer Science Graduate | Software & AI Engineer</i>
+</p>
